@@ -13,6 +13,7 @@
 		8CE5136E2011B97200222FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5136D2011B97200222FF8 /* Assets.xcassets */; };
 		8CE513712011B97200222FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5136F2011B97200222FF8 /* LaunchScreen.storyboard */; };
 		8CE513792011BA0200222FF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE513782011BA0100222FF8 /* GoogleService-Info.plist */; };
+		8CE5137E2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5137D2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png */; };
 		993C0CB670B4CDB019E484E4 /* Pods_socialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0639E76BC50EA27C903B557 /* Pods_socialNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		8CE513702011B97200222FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE513722011B97200222FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE513782011BA0100222FF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CE5137D2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "donnasamuel-Logo 900x360.png"; sourceTree = "<group>"; };
 		96FADEE31601AF0CAE1DF909 /* Pods-socialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-socialNetwork/Pods-socialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		F0639E76BC50EA27C903B557 /* Pods_socialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				8CE513662011B97200222FF8 /* AppDelegate.swift */,
 				8CE5136A2011B97200222FF8 /* Main.storyboard */,
 				8CE5136D2011B97200222FF8 /* Assets.xcassets */,
+				8CE5137D2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png */,
 				8CE5136F2011B97200222FF8 /* LaunchScreen.storyboard */,
 				8CE513722011B97200222FF8 /* Info.plist */,
 			);
@@ -181,6 +184,7 @@
 				8CE513792011BA0200222FF8 /* GoogleService-Info.plist in Resources */,
 				8CE5136E2011B97200222FF8 /* Assets.xcassets in Resources */,
 				8CE5136C2011B97200222FF8 /* Main.storyboard in Resources */,
+				8CE5137E2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
