@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C265146201391D100D1A0A6 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C265145201391D100D1A0A6 /* FancyButton.swift */; };
 		8CE513672011B97200222FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE513662011B97200222FF8 /* AppDelegate.swift */; };
 		8CE513692011B97200222FF8 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE513682011B97200222FF8 /* SignInVC.swift */; };
 		8CE5136C2011B97200222FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5136A2011B97200222FF8 /* Main.storyboard */; };
@@ -14,10 +15,15 @@
 		8CE513712011B97200222FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5136F2011B97200222FF8 /* LaunchScreen.storyboard */; };
 		8CE513792011BA0200222FF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CE513782011BA0100222FF8 /* GoogleService-Info.plist */; };
 		8CE5137E2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5137D2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png */; };
+		8CE513802011F71F00222FF8 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE5137F2011F71F00222FF8 /* FancyView.swift */; };
+		8CE513832011F9EE00222FF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE513822011F9EE00222FF8 /* Constants.swift */; };
+		8CE513852011FDAB00222FF8 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE513842011FDAB00222FF8 /* RoundBtn.swift */; };
+		8CE5138720120C0700222FF8 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE5138620120C0700222FF8 /* FancyField.swift */; };
 		993C0CB670B4CDB019E484E4 /* Pods_socialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0639E76BC50EA27C903B557 /* Pods_socialNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C265145201391D100D1A0A6 /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		8C6EE19AC399731DA492CBA2 /* Pods-socialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socialNetwork/Pods-socialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		8CE513632011B97200222FF8 /* socialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE513662011B97200222FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +34,10 @@
 		8CE513722011B97200222FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE513782011BA0100222FF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8CE5137D2011DB3C00222FF8 /* donnasamuel-Logo 900x360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "donnasamuel-Logo 900x360.png"; sourceTree = "<group>"; };
+		8CE5137F2011F71F00222FF8 /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		8CE513822011F9EE00222FF8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CE513842011FDAB00222FF8 /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		8CE5138620120C0700222FF8 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		96FADEE31601AF0CAE1DF909 /* Pods-socialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-socialNetwork/Pods-socialNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		F0639E76BC50EA27C903B557 /* Pods_socialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +75,7 @@
 		8CE513652011B97200222FF8 /* socialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				8CE513812011F9DC00222FF8 /* Util */,
 				8CE5137A2011BFA100222FF8 /* Model */,
 				8CE5137C2011BFB000222FF8 /* Controller */,
 				8CE5137B2011BFA600222FF8 /* View */,
@@ -89,6 +100,10 @@
 		8CE5137B2011BFA600222FF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8CE5137F2011F71F00222FF8 /* FancyView.swift */,
+				8CE513842011FDAB00222FF8 /* RoundBtn.swift */,
+				8CE5138620120C0700222FF8 /* FancyField.swift */,
+				8C265145201391D100D1A0A6 /* FancyButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +114,14 @@
 				8CE513682011B97200222FF8 /* SignInVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8CE513812011F9DC00222FF8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8CE513822011F9EE00222FF8 /* Constants.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		ACB3F430280B1298E09C66CF /* Frameworks */ = {
@@ -243,8 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE5138720120C0700222FF8 /* FancyField.swift in Sources */,
 				8CE513692011B97200222FF8 /* SignInVC.swift in Sources */,
+				8CE513852011FDAB00222FF8 /* RoundBtn.swift in Sources */,
+				8C265146201391D100D1A0A6 /* FancyButton.swift in Sources */,
 				8CE513672011B97200222FF8 /* AppDelegate.swift in Sources */,
+				8CE513802011F71F00222FF8 /* FancyView.swift in Sources */,
+				8CE513832011F9EE00222FF8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
