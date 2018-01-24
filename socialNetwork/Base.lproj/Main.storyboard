@@ -52,27 +52,21 @@
                                 <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0k-KE-6dy">
-                                <rect key="frame" x="165.5" y="347" width="44" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="g5a-um-k4p"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
-                                <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvq-nu-EoD" customClass="RoundBtn" customModule="socialNetwork" customModuleProvider="target">
-                                <rect key="frame" x="132.5" y="222" width="110" height="110"/>
+                                <rect key="frame" x="87.5" y="222" width="200" height="200"/>
                                 <color key="backgroundColor" red="0.2334696352481842" green="0.36745616793632507" blue="0.59175866842269897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="110" id="KqW-iS-ATg"/>
-                                    <constraint firstAttribute="width" constant="110" id="ict-1b-Ly4"/>
+                                    <constraint firstAttribute="height" constant="200" id="KqW-iS-ATg"/>
+                                    <constraint firstAttribute="width" constant="200" id="ict-1b-Ly4"/>
                                 </constraints>
                                 <size key="titleShadowOffset" width="8" height="13"/>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="fbButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rx8-z9-Tfz"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Rvk-gK-ymJ">
-                                <rect key="frame" x="47.5" y="394" width="280" height="136"/>
+                                <rect key="frame" x="47.5" y="452" width="280" height="136"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email Address" placeholder="Email Address" textAlignment="natural" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="5Sr-gn-1xO" customClass="FancyField" customModule="socialNetwork" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
@@ -138,23 +132,26 @@
                         </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="a0k-KE-6dy" firstAttribute="top" secondItem="Lvq-nu-EoD" secondAttribute="bottom" constant="15" id="1bz-G9-gSh"/>
                             <constraint firstItem="vHk-MI-8H2" firstAttribute="top" secondItem="87W-RI-peY" secondAttribute="bottom" constant="30" id="3jQ-Hy-ipS"/>
-                            <constraint firstItem="a0k-KE-6dy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mV-9t-7R2"/>
-                            <constraint firstItem="zcS-Tk-HXJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8jY-b0-wIX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zcS-Tk-HXJ" secondAttribute="trailing" id="9Vz-Yo-eJs"/>
                             <constraint firstItem="Rvk-gK-ymJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Am5-jK-b8R"/>
+                            <constraint firstItem="zcS-Tk-HXJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="C25-N1-Xy3"/>
                             <constraint firstItem="Lvq-nu-EoD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ImR-AK-bD7"/>
                             <constraint firstItem="87W-RI-peY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QAn-iu-I4c"/>
-                            <constraint firstItem="Rvk-gK-ymJ" firstAttribute="top" secondItem="a0k-KE-6dy" secondAttribute="bottom" constant="15" id="Qax-L2-QLw"/>
                             <constraint firstItem="87W-RI-peY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="R2O-Yo-Ejd"/>
-                            <constraint firstItem="zcS-Tk-HXJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XN1-3I-39J"/>
+                            <constraint firstItem="zcS-Tk-HXJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ych-E4-grI"/>
+                            <constraint firstItem="zcS-Tk-HXJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Zwy-30-asp"/>
+                            <constraint firstItem="Lvq-nu-EoD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p2c-dv-EsF"/>
+                            <constraint firstItem="Rvk-gK-ymJ" firstAttribute="top" secondItem="Lvq-nu-EoD" secondAttribute="bottom" constant="30" id="sJ4-RY-sGp"/>
                             <constraint firstItem="87W-RI-peY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uT9-K7-oem"/>
                             <constraint firstItem="vHk-MI-8H2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xBR-wO-bDI"/>
                             <constraint firstItem="Lvq-nu-EoD" firstAttribute="top" secondItem="vHk-MI-8H2" secondAttribute="bottom" constant="10" id="zlx-33-Vhc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="fbButton" destination="Lvq-nu-EoD" id="HUE-wy-X6Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
