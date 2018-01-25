@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C152B9A2019B50B004D5F69 /* FeedVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C152B992019B50B004D5F69 /* FeedVCViewController.swift */; };
+		8C152B9C2019D63D004D5F69 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C152B9B2019D63D004D5F69 /* CircleView.swift */; };
 		8C265146201391D100D1A0A6 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C265145201391D100D1A0A6 /* FancyButton.swift */; };
 		8C6B56CE2015E87E0069FD40 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B56CB2015E87C0069FD40 /* Bolts.framework */; };
 		8C6B56CF2015E87E0069FD40 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6B56CC2015E87E0069FD40 /* FBSDKCoreKit.framework */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C152B992019B50B004D5F69 /* FeedVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVCViewController.swift; sourceTree = "<group>"; };
+		8C152B9B2019D63D004D5F69 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		8C265145201391D100D1A0A6 /* FancyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		8C6B56CB2015E87C0069FD40 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		8C6B56CC2015E87E0069FD40 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 				8CE513842011FDAB00222FF8 /* RoundBtn.swift */,
 				8CE5138620120C0700222FF8 /* FancyField.swift */,
 				8C265145201391D100D1A0A6 /* FancyButton.swift */,
+				8C152B9B2019D63D004D5F69 /* CircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8CE513682011B97200222FF8 /* SignInVC.swift */,
+				8C152B992019B50B004D5F69 /* FeedVCViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C152B9C2019D63D004D5F69 /* CircleView.swift in Sources */,
 				8CE5138720120C0700222FF8 /* FancyField.swift in Sources */,
+				8C152B9A2019B50B004D5F69 /* FeedVCViewController.swift in Sources */,
 				8CE513692011B97200222FF8 /* SignInVC.swift in Sources */,
 				8CE513852011FDAB00222FF8 /* RoundBtn.swift in Sources */,
 				8C265146201391D100D1A0A6 /* FancyButton.swift in Sources */,

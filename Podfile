@@ -10,6 +10,7 @@ target 'socialNetwork' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'SwiftKeychainWrapper'
   # Pods for socialNetwork
 
 end
