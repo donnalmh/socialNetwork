@@ -13,6 +13,15 @@ import Firebase
 class FeedVCViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func signOutBtnTapped(_ sender: Any) {
+        let keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
+        print("Donna: ID removed from keychain")
+        
+        
+        try! Auth.auth().signOut()
+        
+        performSegue(withIdentifier: "goToSignIn", sender: nil)
+    }
     @IBAction func signOutTapped(_ sender: Any) {
         let keychainResult = KeychainWrapper.standard.removeObject(forKey: KEY_UID)
         print("Donna: ID removed from keychain")
